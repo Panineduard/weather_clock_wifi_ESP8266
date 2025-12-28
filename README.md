@@ -35,10 +35,13 @@ The clock automatically cycles through display modes:
 
 ### Standard Modes (Always Available)
 
-1.  **Time Mode** (20 seconds) - Large time, date, and current temperature
-    *   Shows **indoor** temperature if HTU21D connected
-    *   Shows **outdoor** temperature from weather API if no sensor
-2.  **Weather Mode** (10 seconds) - 3-day **outdoor** forecast with icons and temperatures
+1.  **Time Mode** (20 seconds) - Large time, date, and current temperature  
+    ![](/img/TIME.jpg)
+
+*   Shows **indoor** temperature if HTU21D connected
+*   Shows **outdoor** temperature from weather API if no sensor
+
+1.  **Weather Mode** (10 seconds) - 3-day **outdoor** forecast with icons and temperatures
 
 ### Optional Home Climate Mode
 
