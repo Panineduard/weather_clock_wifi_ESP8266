@@ -36,20 +36,26 @@ The clock automatically cycles through display modes:
 ### Standard Modes (Always Available)
 
 1.  **Time Mode** (20 seconds) - Large time, date, and current temperature  
-    ![Time Mode Img](./img/TIME.JPG){width=50}
+    
+<img src="./img/TIME.JPG" alt="ime Mode Img" width="200"/>
 
 *   Shows **indoor** temperature if HTU21D connected
 *   Shows **outdoor** temperature from weather API if no sensor
 
 1.  **Weather Mode** (10 seconds) - 3-day **outdoor** forecast with icons and temperatures
 
+<img src="./img/WEATHER.JPG" alt="ime Mode Img" width="200"/>
+
 ### Optional Home Climate Mode
 
 1.  **Home Climate Mode** (10 seconds) - **Indoor** temperature, humidity, and comfort level
-    *   Only appears when HTU21D sensor is connected
-    *   Shows real-time home climate data
-    *   Displays "Home Climate" title to distinguish from outdoor weather
-    *   See [HTU21D Setup Guide](HTU21D_SETUP_GUIDE.md) for wiring and setup
+
+<img src="./img/HOME_CLIMATE.JPG" alt="ime Mode Img" width="200"/>
+    
+*   Only appears when HTU21D sensor is connected
+*   Shows real-time home climate data
+*   Displays "Home Climate" title to distinguish from outdoor weather
+*   See [HTU21D Setup Guide](HTU21D_SETUP_GUIDE.md) for wiring and setup
 
 **Key Benefit:** With HTU21D, you get **both indoor and outdoor** information - monitor your home comfort while staying informed about outside weather!
 
