@@ -52,17 +52,17 @@ The clock automatically cycles through display modes:
 
 ## 📋 Table of Contents
 
-*   [Hardware Requirements](#hardware-requirements)
-*   [Software Requirements](#software-requirements)
-*   [Installation](#installation)
-*   [Wiring Diagram](#wiring-diagram)
-*   [First Time Setup](#first-time-setup)
-*   [Web Interface](#web-interface)
-*   [Configuration](#configuration)
-*   [API Setup](#api-setup)
-*   [Memory Optimization](#memory-optimization)
-*   [Troubleshooting](#troubleshooting)
-*   [License](#license)
+*   [Hardware Requirements](#-hardware-requirements)
+*   [Software Requirements](#-software-requirements)
+*   [Installation](#-installation)
+*   [Wiring Diagram](#-wiring-diagram)
+*   [First Time Setup](#-first-time-setup)
+*   [Web Interface](#-web-interface)
+*   [Configuration](#-configuration)
+*   [API Setup](#-api-setup)
+*   [Memory Optimization](#-memory-optimization)
+*   [Troubleshooting](#-troubleshooting)
+*   [License](#-license)
 
 ## 🔧 Hardware Requirements
 
@@ -295,21 +295,6 @@ utc_offset: 2  // EET (Eastern European Time)
 2.  Update values
 3.  Click **Save Configuration**
 4.  Device restarts with new settings
-
-**Via Code** (Before Upload):  
-Edit `ConfigManager.h`:
-
-```cpp
-void setDefaults() {
-  strcpy(m_config.wifi_ssid, "YOUR_WIFI");
-  strcpy(m_config.wifi_password, "YOUR_PASSWORD");
-  strcpy(m_config.weather_api_key, "YOUR_API_KEY");
-  strcpy(m_config.weather_place_id, "postal-ua-79007");
-  m_config.utc_offset = 2;
-  m_config.initialized = true;
-  saveConfig();
-}
-```
 
 ## 🌤️ API Setup
 
